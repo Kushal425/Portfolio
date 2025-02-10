@@ -1,0 +1,128 @@
+body{
+    background-color: #D9DEE0;
+    color: azure;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    margin: 25px;
+    background-color: #2D2F35;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+
+.header{
+    padding: 25px 50px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 3rem;
+    color: #B1968C;
+}
+
+.logo span{
+    color: #ff8d8d;
+}
+
+.logo span:hover{
+    background-color: #ff8d8d;
+    color: #2D2F35;
+    transition: all 0.5s ease;
+
+}
+
+.header .side-bar{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .navbar{
+    width: 80%;
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 15px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header ul a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #B1968C;
+}
+.header ul a:hover{
+    border-bottom: 2px solid #B1968C;
+    transition: all 0.5s ease;
+}
+
+#home{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 100px 50px ;
+}
+#image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 20px solid white;
+    box-shadow: 0 0 20px #B1968C;
+
+}
+.home-content{
+    width: 60%;
+    color: #dfdfe2;
+}
+.home-content h1{
+    font-size: 3rem;
+    color: #B1968C;
+}
+.home-content h1 span{
+    color: #ff8d8d;
+}
+.home-content h1 span:hover{
+    border-bottom: 5px solid;
+    transition: all 0.5s ease;
+
+}
+.home-content h2{
+    font-size: 2rem;
+}
+.home-content p{
+    font-size: 1rem;
+}
+
+.social{
+    margin: 25px 0;
+}
+.social a{
+    color: #ff8d8d;
+    font-size: 30px;
+    text-decoration: none; 
+}
+.resume{
+    height:50px;
+    width:200px;
+    color: #ff8d8d;
+    background: transparent;
+    border: 2px solid #ff8d8d;
+    border-radius: 7px;
+    font-size: 1.5rem;
+
+}
+.resume:hover{
+    box-shadow: 0 0 20px #ff8d8d;
+    background-color: #ff8d8d;
+    color: #2D2F35;
+    transition: all 0.5s ease;
+
+}
