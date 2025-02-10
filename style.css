@@ -21,12 +21,13 @@ body{
 }
 
 .logo{
-    font-size: 3rem;
+    font-size: 2rem;
     color: #B1968C;
 }
 
 .logo span{
     color: #ff8d8d;
+    font-size: 3rem;
 }
 
 .logo span:hover{
@@ -63,6 +64,11 @@ body{
     border-bottom: 2px solid #B1968C;
     transition: all 0.5s ease;
 }
+.mode{
+    margin: 10px 0 0;
+    color: #ff8d8d;
+    font-size: 30px;
+}
 
 #home{
     display: flex;
@@ -98,7 +104,7 @@ body{
     font-size: 2rem;
 }
 .home-content p{
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 .social{
