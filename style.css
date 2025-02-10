@@ -132,3 +132,10 @@ body{
     transition: all 0.5s ease;
 
 }
+.stack{
+    color: #B1968C;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
